@@ -60,6 +60,10 @@ public class ServifyTestAutomation {
      Assert.assertNotEquals(element, null);  
      System.out.println(" User logined Successfully 360Dashbordboard ");
      Thread.sleep(2000);
+     
+     driver.quit();
+     
+     
      }
     
      
