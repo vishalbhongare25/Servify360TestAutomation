@@ -1,5 +1,6 @@
 package test.automation;
 
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
@@ -7,6 +8,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
@@ -50,12 +52,12 @@ public class ServifyTestAutomation {
      //driver.findElement(By.name("password")).sendKeys("|$JBRmed+K#im");
     driver.findElement(By.name("password")).sendKeys("vishal09");
      driver.findElement(By.name("submit")).click();
-     Thread.sleep(2000); 
+     Thread.sleep(6000); 
      String HomepageURl = driver.getCurrentUrl();
      AssertJUnit.assertEquals(HomepageURl, "https://360.servify.in/dashboard");
      Thread.sleep(6000);
-     //WebElement element =driver.findElement(By.id("filterDashboard"));
-    // Assert.assertNotEquals(element, null);  
+     WebElement element =driver.findElement(By.id("filterDashboard"));
+     Assert.assertNotEquals(element, null);  
      System.out.println(" User logined Successfully 360Dashbordboard ");
      Thread.sleep(2000);
      }

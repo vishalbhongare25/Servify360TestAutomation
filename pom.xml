@@ -120,7 +120,7 @@
 					<fileSets>
 					<fileSet>
 						<!-- Report directory Path -->
-						<directory> /Users/vishal/Documents/workspace/Servify360TestAutomation</directory>
+						<directory>/Users/vishal/Documents/workspace/Servify360TestAutomation/test-output</directory>
 						<includes>
 							<!-- Report file name -->
 							<include>emailable-report.html</include>
