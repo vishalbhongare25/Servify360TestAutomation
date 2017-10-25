@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17923" started-at="2017-10-25T10:17:19Z" finished-at="2017-10-25T10:17:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17923" started-at="2017-10-25T10:17:19Z" finished-at="2017-10-25T10:17:37Z">
+      <class name="test.automation.ServifyTestAutomation">
+        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:test.automation.ServifyTestAutomation@71318ec4]" name="LaunchChromeBrowser" duration-ms="2285" started-at="2017-10-25T15:47:19Z" finished-at="2017-10-25T15:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChromeBrowser -->
+        <test-method status="PASS" signature="OpenLinkServify360DashbordUrl()[pri:2, instance:test.automation.ServifyTestAutomation@71318ec4]" name="OpenLinkServify360DashbordUrl" duration-ms="3040" started-at="2017-10-25T15:47:22Z" finished-at="2017-10-25T15:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinkServify360DashbordUrl -->
+        <test-method status="PASS" signature="UserLoginServify360Dashbord()[pri:3, instance:test.automation.ServifyTestAutomation@71318ec4]" name="UserLoginServify360Dashbord" duration-ms="12561" started-at="2017-10-25T15:47:25Z" finished-at="2017-10-25T15:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLoginServify360Dashbord -->
+      </class> <!-- test.automation.ServifyTestAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
