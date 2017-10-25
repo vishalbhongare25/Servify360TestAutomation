@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22015" started-at="2017-10-25T11:24:09Z" finished-at="2017-10-25T11:24:31Z">
+  <suite name="Default suite" duration-ms="21258" started-at="2017-10-25T12:59:15Z" finished-at="2017-10-25T12:59:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22015" started-at="2017-10-25T11:24:09Z" finished-at="2017-10-25T11:24:31Z">
+    <test name="Default test" duration-ms="21258" started-at="2017-10-25T12:59:15Z" finished-at="2017-10-25T12:59:36Z">
       <class name="test.automation.ServifyTestAutomation">
-        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:test.automation.ServifyTestAutomation@71318ec4]" name="LaunchChromeBrowser" duration-ms="2274" started-at="2017-10-25T16:54:09Z" finished-at="2017-10-25T16:54:11Z">
+        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:test.automation.ServifyTestAutomation@71318ec4]" name="LaunchChromeBrowser" duration-ms="1554" started-at="2017-10-25T18:29:15Z" finished-at="2017-10-25T18:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchChromeBrowser -->
-        <test-method status="PASS" signature="OpenLinkServify360DashbordUrl()[pri:2, instance:test.automation.ServifyTestAutomation@71318ec4]" name="OpenLinkServify360DashbordUrl" duration-ms="3138" started-at="2017-10-25T16:54:11Z" finished-at="2017-10-25T16:54:14Z">
+        <test-method status="PASS" signature="OpenLinkServify360DashbordUrl()[pri:2, instance:test.automation.ServifyTestAutomation@71318ec4]" name="OpenLinkServify360DashbordUrl" duration-ms="3040" started-at="2017-10-25T18:29:16Z" finished-at="2017-10-25T18:29:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenLinkServify360DashbordUrl -->
-        <test-method status="PASS" signature="UserLoginServify360Dashbord()[pri:3, instance:test.automation.ServifyTestAutomation@71318ec4]" name="UserLoginServify360Dashbord" duration-ms="16565" started-at="2017-10-25T16:54:14Z" finished-at="2017-10-25T16:54:31Z">
+        <test-method status="PASS" signature="UserLoginServify360Dashbord()[pri:3, instance:test.automation.ServifyTestAutomation@71318ec4]" name="UserLoginServify360Dashbord" duration-ms="16637" started-at="2017-10-25T18:29:20Z" finished-at="2017-10-25T18:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLoginServify360Dashbord -->
